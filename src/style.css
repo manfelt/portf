@@ -40,3 +40,13 @@ body {
     align-items: center;
     border: 1px solid black;
 }
+
+.card {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 336px;
+  }
