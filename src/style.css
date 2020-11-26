@@ -49,4 +49,22 @@ body {
     flex-direction: column;
     position: relative;
     width: 336px;
+}
+
+.text {
+    box-sizing: border-box;
+    padding: 0 20px 20px;
+    width: 100%;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 4px;
+    position: relative;
   }
+
+.info {
+    color: #4d5053;
+}
