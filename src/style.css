@@ -23,3 +23,18 @@ body {
     height: 50px;
     background-color: bisque;
 }
+
+.content {
+    min-height: calc(100vh - 100px);
+    width: 710px;
+    margin: auto;
+}
+
+.section {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
