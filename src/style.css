@@ -41,6 +41,10 @@ body {
     border: 1px solid black;
 }
 
+.topsection {
+    height: 400px;
+}
+
 .card {
     align-items: center;
     background-color: #fff;
@@ -67,4 +71,9 @@ body {
 
 .info {
     color: #4d5053;
+}
+
+.dashbar {
+    border: 2px solid #0e0b0087;
+    border-radius: 40px;
 }

@@ -1,4 +1,5 @@
-Anime({
+anime({
     targets: 'div.card',
-    translateX: 250
-});
+    left: '-20px',
+    easing: 'easeInOutQuad'
+  });
