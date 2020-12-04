@@ -24,7 +24,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: bisque;
+  background-color: #3ba3b1;
 }
 
 .content {
@@ -109,17 +109,37 @@ body {
 }
 
 .kontakt {
-  padding: 100px 20px;
-  background-color: bisque;
+  padding: 55px 20px;
+  background-color: #3ba3b1;
+  text-align: center;
+}
+
+.h2 {
   text-transform: uppercase;
   color: #1b5ca7;
 }
 
 .contact-img {
   width: 26px;
-  height: 26px;
+  height: 64px;
   position: relative;
   top: 4px;
   margin-right: 5px;
+}
+
+.contact-img svg:not(:root) {
+  overflow: hidden;
+}
+
+.kontakt p {
+  color: white;
+  font-size: 26px;
+}
+
+.other .contact-img {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
