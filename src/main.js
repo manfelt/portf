@@ -1,5 +1,10 @@
 anime({
     targets: 'div.card',
-    left: '-20px',
+    left: '-40px',
     easing: 'easeInOutQuad'
   });
+
+  anime({
+    targets: 'div.box',
+    right: ''
+  })
