@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-    border-bottom: 1px solid gray;
+   // border-bottom: 1px solid gray;
     justify-content: center;
     display: flex;
     background-color: bisque;
@@ -57,7 +57,7 @@ body {
 
 .card {
     align-items: center;
-    background-color: #fff;
+    background-color: bisque;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -73,6 +73,7 @@ body {
 
 .title {
     align-items: center;
+    text-align: center;
     display: flex;
     font-weight: bold;
     margin-bottom: 4px;
@@ -141,4 +142,10 @@ body {
 .box-img {
     max-width:100%;
     max-height:100%;
+}
+
+.profile-img {
+    margin-top: 10px;
+    margin-bottom: 45px;
+    height: 200px;
 }
