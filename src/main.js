@@ -4,11 +4,11 @@ anime({
     easing: 'easeInOutQuad'
   });
 
-  anime({
+/*   anime({
     targets: 'div.box',
     rotate:{
       value: '1turn',
       easing: 'easeInOutSine',
       delay: 1000
   }
-  });
+  }); */
