@@ -6,5 +6,9 @@ anime({
 
   anime({
     targets: 'div.box',
-    right: ''
-  })
+    rotate:{
+      value: '1turn',
+      easing: 'easeInOutSine',
+      delay: 1000
+  }
+  });
